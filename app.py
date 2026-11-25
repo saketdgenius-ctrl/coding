@@ -19,6 +19,7 @@ st.title("🎓 Saket's Student Portal")
 # Visible tabs right on the main screen
 tab1, tab2 = st.tabs(["🔍 Search Student", "📊 Filter Students"])
 
+# student portal using Tab for search and filter
 # --- TAB 1: SEARCH STUDENT ---
 with tab1:
     wanted_student = st.text_input("Enter Student Name:").lower().strip()
